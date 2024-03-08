@@ -1,4 +1,4 @@
 #!/bin/bash
-python3 -m venv myEnv
-source myEnv/bin/activate
+python -m venv myEnv
+source .\env\Scripts\Activate.ps1
 pip install -r requirements.txt
